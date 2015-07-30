@@ -12,7 +12,7 @@
         <description>Location for bot AIML data</description>
         <param-name>botFolder</param-name>
         <param-value>
-            /home/common/bot_AIML_Files/bots/alice2/
+           /home/common/bot_AIML_Files/
         </param-value>
     </context-param>
       <servlet>

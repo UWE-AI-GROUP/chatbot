@@ -100,7 +100,7 @@
             e.preventDefault();
             e.stopImmediatePropagation();
             //AJAX call to server
-            $.get("/MultiClientBot_working/messageBot?" + "message=" + document.getElementById("shout_message").value, function(responseText) {
+            $.get("/Chatbot_WebApplication/messageBot?" + "message=" + document.getElementById("shout_message").value, function(responseText) {
             document.getElementById("shout_message").value = ""; 
              
              //grab and display any <a> anchor tags if bot has returned a Web-Link   

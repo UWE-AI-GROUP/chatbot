@@ -13,7 +13,7 @@ import org.alicebot.ab.Chat;
 public class Servlet_Utils {
     
     
-    Map<String, Chat> chatStore = new HashMap<String, Chat>();
+    Map<String, Chat> chatStore = new HashMap<>();
     
     
     
@@ -31,12 +31,8 @@ public class Servlet_Utils {
     }
     
     public Boolean checkForChat(String name){
-    Boolean isChat = false;
-    if (chatStore.containsKey(name)){
-    return isChat = true;
-    }
-        return isChat;
-    }
+        return chatStore.containsKey(name);
+ }
   
     
 }
